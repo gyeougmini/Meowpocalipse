@@ -1,6 +1,10 @@
-﻿  render.c
+﻿  game.c
+C:\Users\korea\source\repos\Meowpocalypse\Meowpocalypse\game.c(9,2): warning C4013: 'InitWaitingRoom'이(가) 정의되지 않았습니다. extern은 int형을 반환하는 것으로 간주합니다.
+C:\Users\korea\source\repos\Meowpocalypse\Meowpocalypse\game.c(10,2): warning C4013: 'InitFirstHallWay'이(가) 정의되지 않았습니다. extern은 int형을 반환하는 것으로 간주합니다.
+C:\Users\korea\source\repos\Meowpocalypse\Meowpocalypse\game.c(11,2): warning C4013: 'InitPlayer'이(가) 정의되지 않았습니다. extern은 int형을 반환하는 것으로 간주합니다.
+C:\Users\korea\source\repos\Meowpocalypse\Meowpocalypse\game.c(15,2): warning C4013: 'UpdatePlayer'이(가) 정의되지 않았습니다. extern은 int형을 반환하는 것으로 간주합니다.
   코드를 생성하고 있습니다.
-  4 of 10 functions (40.0%) were compiled, the rest were copied from previous compilation.
+  4 of 13 functions (30.8%) were compiled, the rest were copied from previous compilation.
     0 functions were new in current compilation
     0 functions had inline decision re-evaluated but remain unchanged
   코드를 생성했습니다.

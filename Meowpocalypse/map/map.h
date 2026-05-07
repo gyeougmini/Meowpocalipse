@@ -8,4 +8,9 @@ typedef struct {
     int height;
 } WAITINGMAP;
 
+typedef struct {
+    int tiles[FIRST_HALLWAYMAP_ROWS][FIRST_HALLWAYMAP_COLS];
+}FIRSTHALLWAYMAP;
+
 extern WAITINGMAP currentMap;
+extern FIRSTHALLWAYMAP firsthallwayMap;

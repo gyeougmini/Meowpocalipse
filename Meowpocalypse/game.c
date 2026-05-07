@@ -7,6 +7,7 @@
 
 void InitGame() {
 	InitWaitingRoom();
+	InitFirstHallWay();
 	InitPlayer();
 }
 
@@ -17,6 +18,8 @@ void Update() {
 }
 
 void Render(HDC mDC) {
-	RanderWaitingMap(mDC);
+	DrawTile(mDC);
+	RenderWaitingMap(mDC);
+	RenderFirstHallWayMap(mDC);
 	RenderPlayer(mDC);
 }

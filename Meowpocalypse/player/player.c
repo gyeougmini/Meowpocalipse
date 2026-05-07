@@ -6,8 +6,8 @@
 PLAYER player;
 
 void InitPlayer() {
-	player.base.x = currentMap.width / 2;
-	player.base.y = currentMap.height / 2;
+	player.base.x = SCREEN_WIDTH / 2;
+	player.base.y = SCREEN_HEIGHT / 2;
 	player.base.width = PLAYER_SIZE;
 	player.base.height = PLAYER_SIZE;
 	player.base.hp = 200;
