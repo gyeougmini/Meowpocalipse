@@ -1,4 +1,5 @@
 #pragma once
+
 #include "object.h"
 
 typedef struct {
@@ -7,3 +8,7 @@ typedef struct {
 } PLAYER;
 
 extern PLAYER player;
+
+void InitPlayer();
+void UpdatePlayer();
+void MapTransition();
