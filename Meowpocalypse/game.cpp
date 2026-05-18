@@ -38,6 +38,7 @@ void Update(HWND hWnd) {
 	UpdateEnemies();
 	// 보스
 	SpawnBoss(currentMapType);
+	UpdateBoss();
 	// 카메라(현재 맵 크기를 카메라로 전달)
 	MAPDATA* m = &maps[currentMapType];
 	UpdateCamera(player.base.x, player.base.y, m->rows, m->cols);
@@ -48,11 +49,14 @@ void Render(HDC mDC) {
 	RenderCurrentMap(mDC);
 	// 플레이어
 	RenderPlayer(mDC);
+	RenderPlayerHitBox(mDC);
 	// 총알
 	RenderBullets(mDC);
 	// 잡몹
 	RenderEnemies(mDC);
+	RenderEnemiesHitBox(mDC);
 	RenderCatPaw(mDC);
 	// 보스
 	RenderBoss(mDC);
+	RenderBossPaws(mDC);
 }
